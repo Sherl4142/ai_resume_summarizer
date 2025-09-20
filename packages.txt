@@ -1,7 +1,1 @@
-pandas
-numpy
-matplotlib
-seaborn
-nltk
-spacy
-PyMuPDF
+
