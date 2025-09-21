@@ -19,3 +19,33 @@ Screening multiple resumes manually is time-consuming and error-prone. The **AI 
 ```bash
 git clone <repo-url>
 cd ai_resume_summarizer
+Create a virtual environment (optional but recommended):
+
+python -m venv venv
+
+
+Activate the environment:
+
+Windows: venv\Scripts\activate
+
+Mac/Linux: source venv/bin/activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Usage
+
+Run the Streamlit app:
+
+streamlit run main.py
+
+
+Upload resumes in PDF or DOCX format via the browser.
+
+View fit scores, matched skills, and dashboard visualizations.
+
+Technologies Used
+
+Python, Streamlit, PyMuPDF, python-docx, Pandas, Plotly Express
+
